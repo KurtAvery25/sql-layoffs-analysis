@@ -1,17 +1,17 @@
-## **SQL - Layoffs Analysis**  
+# **SQL - Layoffs Analysis**  
 
-### **Project Overview**  
+## **Project Overview**  
 This project focuses on analyzing layoffs data using SQL. The dataset contains information about layoffs across various companies, industries, and countries. The goal is to clean, explore, and extract insights from the data to understand patterns and trends.
 
 **Dataset Source & Credits:** [Layoffs-MySQL-YouTube-Series](https://github.com/AlexTheAnalyst/MySQL-YouTube-Series/blob/main/layoffs.csv)
 
-### **Objectives**  
+## **Objectives**  
 - Clean and preprocess the dataset to remove inconsistencies.  
 - Explore the dataset to understand its structure and key attributes.  
 - Perform SQL queries to extract meaningful insights related to layoffs.  
 
-### **Project Structure**  
-#### **1. Database Setup**  
+## **Project Structure**  
+### **1. Database Setup**  
 - Created a new table to remove duplicate records.  
 - Standardized data formats and handled null values. 
 
@@ -37,7 +37,7 @@ This project focuses on analyzing layoffs data using SQL. The dataset contains i
     WITH (FORMAT csv, HEADER true, NULL 'NULL')
 ```
 
-#### **2. Data Exploration & Cleaning**  
+### **2. Data Exploration & Cleaning**  
 - Checked for missing values and handled them accordingly.  
 - Converted relevant data types to ensure accuracy.  
 - Standardized country names and industry labels.  
@@ -66,7 +66,7 @@ This project focuses on analyzing layoffs data using SQL. The dataset contains i
     WHERE country = 'United States.';
 ```
 
-#### **3. Data Analysis & Findings**  
+### **3. Data Analysis & Findings**  
 - **Top 5 companies with the highest layoffs:**  
   - Amazon (27,150), Google (12,000), Meta (11,000), Microsoft (10,000), Salesforce (8,000).  
 
@@ -233,19 +233,17 @@ This project focuses on analyzing layoffs data using SQL. The dataset contains i
     LIMIT 10;
 ```
 
-### **Findings**  
+## **Findings**  
 - 2022 had the highest layoffs across industries.  
 - The Consumer and Retail industries were the most affected.  
 - Layoffs were highest in January, indicating seasonal trends.  
 - The U.S. experienced the most layoffs in the tech industry.  
-- There is a strong correlation between company size and layoffs.  
+- There is a strong correlation between company size and layoffs.   
 
-### **Reports**  
-- Summarized insights from SQL queries.  
-- Used aggregated results to generate findings for industry trends.  
-
-### **Conclusion**  
+## **Conclusion**  
 Layoffs have been significant in certain industries, with notable spikes in 2022 and early 2023. The findings can help businesses and analysts understand employment trends and anticipate workforce challenges.  
 
-### **Author**  
+## **Author**  
 - [Engr. Kurt Avery Santos](https://www.github.com/KurtAvery25)
+
+
