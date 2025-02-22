@@ -1,4 +1,4 @@
-# **SQL - Layoffs Analysis**  
+# **Layoffs Analysis**  
 
 ## **Project Overview**  
 This project focuses on analyzing layoffs data using SQL. The dataset contains information about layoffs across various companies, industries, and countries. The goal is to clean, explore, and extract insights from the data to understand patterns and trends.
